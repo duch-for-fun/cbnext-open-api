@@ -6,9 +6,9 @@ import java.util.Date
 @Service
 class Service(private val repo: TodRepository) {
 
-    fun getInitInfo(client: String?) = when {
-        client == null -> Info(false)
-        "bob".equals(client) -> Info(false, Date())
+    fun getInitInfo(client: String?) = when (client) {
+        null -> Info(false)
+        "bob" -> Info(false, Date())
         else -> Info(true, Date(), "USD for $client")
     }
 
