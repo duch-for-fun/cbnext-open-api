@@ -3,29 +3,29 @@
 ### Getting Started
 
 Just run this project by : `./gradlew clean bootRun`
-![bootRun](img/Screenshot 2019-12-06 at 23.24.12.png)
+![bootRun](img/1.png)
 
 and after "ready..."
-![ready...](img/Screenshot 2019-12-06 at 23.24.35.png)
+![ready](img/2.png)
 
 go to your favorite browser: http://localhost:8888/swagger-ui/index.html?url=/v2/api-docs
-
-![swagger-home](img/Screenshot 2019-12-06 at 23.25.40.png)
-
+![swaggerHome](img/3.png)
 
 Next, to try any REST:
 * choose a method
-![swagger-api](img/Screenshot 2019-12-06 at 23.26.43.png)
+![swaggerMethod](img/4.png)
+
 * click "Try it out" (on the right) and type parameters
-![swagger-api](img/Screenshot 2019-12-06 at 23.28.24.png)
+![swaggerParams](img/5.png)
+
 * push "Execute"
-![swagger-api](img/Screenshot 2019-12-06 at 23.28.59.png)
+![swaggerExecute](img/6.png)
 
 Also you can check API with terminal
-![swagger-api](img/Screenshot 2019-12-06 at 23.30.49.png)
+![curl](img/7.png)
 or copy request URL to your browser 
-![swagger-api](img/Screenshot 2019-12-06 at 23.31.52.png)
-easy!!!
+![browser](img/8.png)
+easy!
 
 
 ### Reference documentation
