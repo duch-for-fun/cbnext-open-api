@@ -28,7 +28,7 @@ data class Tod(
         @GeneratedValue(strategy = GenerationType.AUTO)
         val id: Long = 0L,
 
-        @ApiModelProperty(notes = "client name", required = true)
+        @ApiModelProperty(notes = "client name", required = true, example = "bob")
         @Column(name = "client", nullable = false)
         val client: String = "",
 
